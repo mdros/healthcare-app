@@ -41,3 +41,11 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
+
+allOpen {
+	annotations(
+		"javax.persistence.Entity",
+		"javax.persistence.MappedSuperclass",
+		"javax.persistence.Embedabble"
+	)
+}
