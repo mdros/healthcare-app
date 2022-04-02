@@ -1,0 +1,1 @@
+insert into users (user_type, email, login, password, name, surname, specialisation) VALUES ('DOCTOR', 'test@email.com', 'login', 'password', 'name', 'surname', 'CARDIOLOGY');

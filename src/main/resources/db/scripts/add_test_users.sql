@@ -1,0 +1,1 @@
+insert into users (user_type, email, login, password, name, surname, specialisation) VALUES ('USER', 'test@email.com', 'login', 'password', 'name', 'surname', null);
